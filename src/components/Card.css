@@ -101,3 +101,31 @@
 .submit-card-title{
   margin-bottom: 0.5rem;
 }
+
+@media (max-width: 420px){
+  .card{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    height: auto;
+  }
+
+  .rating-item{
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+
+}
+
+@media (max-width: 375px){
+  .card{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    height: auto;
+  }
+
+  .rating-item{
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+
+}
