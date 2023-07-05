@@ -22,7 +22,7 @@ const Card = () => {
         <img src={Mobile} alt="Mobile" />
       </picture>
       <p className="submit-card-result">
-        You selected {selectedIndex} out of 5
+        You selected {RATINGS[selectedIndex]} out of 5
       </p>
       <h1 className="submit-card-title">Thank you!</h1>
       <p className="card-description">
